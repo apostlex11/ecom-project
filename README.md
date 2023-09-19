@@ -16,3 +16,26 @@ clerk authentication
 using Clerk for authentication... can build own authentication 
 
 zustand 
+
+
+
+
+npm i -D prisma
+npm i @prisma/client
+npx prisma init
+
+if deleted do below steps again
+npx prisma generate
+    -once connected and schema, prismadb is setup
+npx prisma db push
+
+
+npx prisma migrate reset 
+    - deletes database
+
+
+
+npm i axios
+npm i react-hot-toast
+
+[storeId] = convention saying it needs a storeId
